@@ -1,2 +1,0 @@
-import{e as o,f as t,w as r,z as s,h as a}from"../../../_/nitro.mjs";import{r as i}from"../../../_/auth.mjs";import"node:async_hooks";const n=o((async o=>{await i(o),t("blob");const n=await r(o,s.object({folded:s.string().toLowerCase().transform((o=>"true"===o)).optional(),limit:s.string().transform((o=>Number.parseInt(o))).optional(),prefix:s.string().optional(),cursor:s.string().optional()}).parse);return a().list(n)}));export{n as default};
-//# sourceMappingURL=index.get.mjs.map

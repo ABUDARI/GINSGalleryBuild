@@ -1,2 +1,0 @@
-import{e as t,a,g as s,p as e,c as o,s as n}from"../../_/nitro.mjs";import"node:async_hooks";const r=t((async t=>{const r=await a(t)||{},i=await s(t),d=e.env.NUXT_ADMIN_PASSWORD||"admin";if(i.lastAttemptAt&&Date.now()-i.lastAttemptAt<5e3)throw o({statusCode:429,statusMessage:"Too Many Requests"});if(r.password===d)return await n(t,{user:{role:"admin"}}),{loggedIn:!0};throw await n(t,{lastAttemptAt:Date.now()}),o({statusCode:401,statusMessage:"Unauthorized"})}));export{r as default};
-//# sourceMappingURL=auth.post.mjs.map
