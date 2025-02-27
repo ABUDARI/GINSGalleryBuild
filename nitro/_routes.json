@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/_fonts/*",
+    "/_nuxt/*",
+    "/favicon.ico",
+    "/hub.config.json",
+    "/logo.svg",
+    "/social-card.png"
+  ]
+}

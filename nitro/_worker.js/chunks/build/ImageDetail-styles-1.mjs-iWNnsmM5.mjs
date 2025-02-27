@@ -1,0 +1,2 @@
+const t="@media (min-width:768px){.imageEl[data-v-0485107a]{view-transition-name:vtn-image}.bottom-menu[data-v-0485107a]{view-transition-name:vtn-bottom-menu}.bottom-menu-description[data-v-0485107a]{view-transition-name:vtn-bottom-menu-description}.bottom-menu-button[data-v-0485107a]{view-transition-name:vtn-bottom-menu-button}.back[data-v-0485107a]{view-transition-name:vtn-back-button}}";export{t as I};
+//# sourceMappingURL=ImageDetail-styles-1.mjs-iWNnsmM5.mjs.map
