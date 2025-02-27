@@ -1,5 +1,5 @@
 import { defineComponent, ref, h, resolveComponent, useAttrs, computed, toValue, getCurrentInstance, provide, inject, toRef, isRef, mergeProps, withCtx, renderSlot, createBlock, createCommentVNode, openBlock, toDisplayString, watchEffect, watch, hasInjectionContext, unref, onServerPrefetch, createVNode, resolveDynamicComponent, shallowRef, version, defineAsyncComponent, useSSRContext, shallowReactive, Suspense, Fragment, createApp, createSlots, renderList, onErrorCaptured, reactive, effectScope, isReadonly, isShallow, isReactive, toRaw, getCurrentScope, readonly, onScopeDispose } from 'vue';
-import { j as defuFn, k as parseQuery, l as defu, m as createDefu, n as hasProtocol, o as joinURL, q as klona, w as withQuery, r as isScriptProtocol, s as withTrailingSlash, v as withoutTrailingSlash, x as sanitizeStatusCode, y as getContext, z as isEqual, A as diff, $ as $fetch$1, B as baseURL, c as createError$1, C as createHooks, D as toRouteMatcher, E as createRouter$1 } from '../_/nitro.mjs';
+import { k as defuFn, l as parseQuery, m as defu, n as createDefu, o as hasProtocol, q as joinURL, r as klona, w as withQuery, v as isScriptProtocol, x as withTrailingSlash, y as withoutTrailingSlash, z as sanitizeStatusCode, A as getContext, B as isEqual, C as diff, $ as $fetch$1, D as baseURL, f as createError$1, E as createHooks, F as toRouteMatcher, G as createRouter$1 } from '../_/nitro.mjs';
 import { getActiveHead, CapoPlugin } from 'unhead';
 import { defineHeadPlugin, composableNames, unpackMeta } from '@unhead/shared';
 import { RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'vue-router';
@@ -10,9 +10,10 @@ import { getIconCSS } from '@iconify/utils/lib/css/icon';
 import 'node:crypto';
 import 'node:http';
 import 'node:https';
+import 'node:fs';
+import 'node:url';
 import '@iconify/utils';
 import 'consola/core';
-import 'node:fs';
 import 'node:path';
 
 var _a;

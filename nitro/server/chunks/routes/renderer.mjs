@@ -1,5 +1,5 @@
 import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'vue-bundle-renderer/runtime';
-import { d as defineRenderHandler, b as buildAssetsURL, p as publicAssetsURL, g as getQuery, c as createError, e as getRouteRules, f as useRuntimeConfig, u as useNitroApp, h as getResponseStatusText, i as getResponseStatus } from '../_/nitro.mjs';
+import { c as defineRenderHandler, e as buildAssetsURL, p as publicAssetsURL, g as getQuery, f as createError, h as getRouteRules, u as useRuntimeConfig, b as useNitroApp, i as getResponseStatusText, j as getResponseStatus } from '../_/nitro.mjs';
 import { stringify, uneval } from 'devalue';
 import { renderToString } from 'vue/server-renderer';
 import { propsToString, renderSSRHead } from '@unhead/ssr';
@@ -9,9 +9,10 @@ import { defineHeadPlugin } from '@unhead/shared';
 import 'node:crypto';
 import 'node:http';
 import 'node:https';
+import 'node:fs';
+import 'node:url';
 import '@iconify/utils';
 import 'consola/core';
-import 'node:fs';
 import 'node:path';
 
 const Vue3 = version[0] === "3";
