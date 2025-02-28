@@ -1,1 +1,0 @@
-import{_ as e,c as t,b as o,o as s}from"./BWPULtUf.js";const a={};function r(c,_){return" scsc "}const m=Object.assign(e(a,[["render",r]]),{__name:"ImageDetail"}),f={};function i(c,_){const n=m;return s(),t("div",null,[o(n)])}const u=e(f,[["render",i]]);export{u as default};

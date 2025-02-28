@@ -4,7 +4,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "COS84wHp.js",
+    "file": "DozFJC-C.js",
     "name": "error-404",
     "src": "../node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
@@ -24,7 +24,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B3IaHNEz.js",
+    "file": "B_azFU4C.js",
     "name": "error-500",
     "src": "../node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
@@ -44,7 +44,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BWPULtUf.js",
+    "file": "CkFfg43c.js",
     "name": "entry",
     "src": "../node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -53,12 +53,12 @@ const client_manifest = {
       "../node_modules/nuxt/dist/app/components/error-500.vue"
     ],
     "css": [
-      "entry.YjvtmJOT.css"
+      "entry.YQwBT_5T.css"
     ],
     "assets": []
   },
-  "entry.YjvtmJOT.css": {
-    "file": "entry.YjvtmJOT.css",
+  "entry.YQwBT_5T.css": {
+    "file": "entry.YQwBT_5T.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -68,7 +68,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DIJorb0_.js",
+    "file": "BdCnG1-o.js",
     "name": "_...slug_",
     "src": "pages/detail/[...slug].vue",
     "isDynamicEntry": true,
@@ -81,7 +81,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CjejxYPA.js",
+    "file": "B6TvGDDm.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
@@ -89,11 +89,11 @@ const client_manifest = {
       "../node_modules/nuxt/dist/app/entry.js"
     ],
     "css": [
-      "index.BhYz4L33.css"
+      "index.BVNjnHji.css"
     ]
   },
-  "index.BhYz4L33.css": {
-    "file": "index.BhYz4L33.css",
+  "index.BVNjnHji.css": {
+    "file": "index.BVNjnHji.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
